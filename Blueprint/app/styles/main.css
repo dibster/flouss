@@ -1,0 +1,97 @@
+/* Will be compiled down to a single stylesheet with your sass files */
+
+body > div.container {
+	padding-top: 15px;
+}
+
+ul.nav li div.google-login {
+	border: 2px solid #2c3e50;
+	border-top: none;
+	padding: 11px 20px 6px;
+}
+
+.centered {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	float: none !important;
+}
+
+.text-centered {
+	text-align: center;
+}
+
+div.logo-header div.logo-img {
+	margin-right: 20px;
+	background-size: 128px;
+	width: 128px;
+	height: 128px;
+	background-image: url(../images/logo.png);
+}
+
+div.logo-header h1.demo-panel-title span{
+	font-size: 64px;
+}
+
+div.logo-header h1.demo-panel-title small{
+	position: relative;
+	top: -10px;
+	font-size: 20px;
+}
+
+ul.nav.nav-tabs a {
+	text-decoration: none;
+}
+
+div.ebooks div.ebook {
+	margin-bottom: 20px;
+}
+
+div.ebooks h3.tile-title {
+	line-height: 22px;
+	margin-bottom: 15px;
+}
+
+div.ebook .tag{
+	margin-right: 5px;
+	border-radius: 4px;
+	background-color: #1abc9c;
+	color: #ffffff;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	overflow: hidden;
+	line-height: 15px;
+	padding: 6px 13px 8px 19px;
+	position: relative;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+div.loading {
+	background: #000000;
+	background: rgba(0,0,0,0.8);
+	background: -webkit-radial-gradient(50% 50%, ellipse closest-corner, rgba(0,0,0,0.45) 1%, rgba(0,0,0,0.8) 100%);
+	background: -moz-radial-gradient(50% 50%, ellipse closest-corner, rgba(0,0,0,0.45) 1%, rgba(0,0,0,0.8) 100%);
+	background: -ms-radial-gradient(50% 50%, ellipse closest-corner, rgba(0,0,0,0.45) 1%, rgba(0,0,0,0.8) 100%);
+	background: radial-gradient(50% 50%, ellipse closest-corner, rgba(0,0,0,0.45) 1%, rgba(0,0,0,0.8) 100%);
+	filter: alpha(opacity = 80);
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	height: 100%;
+	width: 100%;
+	z-index: 5;
+}
+
+div.loading div.bubblingG {
+	top: 30%;
+}
+
+div.invoices.ebooks img.media-object {
+	width: 64px;
+	height: 64px;
+}
+
+div.notification {
+	margin-bottom: 10px;
+}
