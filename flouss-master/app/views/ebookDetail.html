@@ -1,0 +1,35 @@
+<div class="row ebook">
+	<div class="span3">
+		<p class="text-centered">
+			<img class="img-polaroid" ng-src="{{ebook.icon}}" alt="file-icon">
+		</p>
+	</div>
+	<div class="span8">
+		<fieldset>
+			<legend>{{ebook.title}} <b class="pull-right">{{ ebook.price | currency }}</b></legend>
+			<p class="description">{{ebook.description}}</p>
+			<p class="tags">
+				<span ng-repeat="tag in ebook.tags" class="tag"><span>{{tag}} &nbsp;</span></span>
+			</p>
+			<p class="pull-right">
+				<button
+					class="btn btn-info btn-large btn-purchase"
+					sprite-purchase="spriteSettings" 
+					callback="makePayment(token)"
+				>
+					<i class="icon-white icon-shopping-cart"></i> Purchase
+				</button>
+			</p>
+		</fieldset>
+		<div class="alert alert-info">
+			<strong>Tip</strong> Use this card number to test <b>4242 4242 4242 4242</b> with a valid expire date and a random CVC number.
+		</div>
+	</div>
+</div>
+<div class="loading" ng-class="{hide: !wait}">
+	<div class="bubblingG centered">
+		<span id="bubblingG_1"></span>
+		<span id="bubblingG_2"></span>
+		<span id="bubblingG_3"></span>
+	</div>
+</div>
